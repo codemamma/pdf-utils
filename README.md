@@ -32,10 +32,9 @@ Install dependencies:
 
 ```bash
 pip install PyPDF2
+```
 
----
-
-## Runtime commands:
+## 🚀Runtime commands:
 
 - Merges `file1.pdf` and `file2.pdf` into a new file called `merged_output.pdf`
 

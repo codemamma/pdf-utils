@@ -33,22 +33,25 @@ Install dependencies:
 ```bash
 pip install PyPDF2
 
+---
 
-Runtime commands:
+## Runtime commands:
 
-Merges file1.pdf and file2.pdf into a new file called merged_output.pdf
+- Merges `file1.pdf` and `file2.pdf` into a new file called `merged_output.pdf`
 
 ```bash
 python3 merge_pdfs.py file1.pdf file2.pdf merged_output.pdf
+```
 
-Splits the entire input.pdf into separate pages.
-Output saved into a folder: input_split_pages/
+- Splits the entire input.pdf into separate pages.
+- Output saved into a folder: input_split_pages/
 
 ```bash
 python3 split_pdfs.py input.pdf
+```
 
-Split Specific Page Range
+- Split Specific Page Range
 
 ```bash
 python3 split_pdfs.py input.pdf <start-page> <end-page>
-
+```
